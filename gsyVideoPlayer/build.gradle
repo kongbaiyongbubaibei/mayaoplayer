@@ -32,22 +32,22 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation "androidx.appcompat:appcompat:1.1.0"
 
-    implementation "com.github.CarGuo:GSYIjkJava:1.0.0"
-    implementation "com.andkulikov:transitionseverywhere:2.1.0"
+    api "com.github.CarGuo:GSYIjkJava:1.0.0"
+    api "com.andkulikov:transitionseverywhere:2.1.0"
 
-    implementation 'com.google.android.exoplayer:exoplayer-core:2.12.1'
-    implementation 'com.google.android.exoplayer:exoplayer-dash:2.12.1'
-    implementation "com.google.android.exoplayer:extension-rtmp:2.12.1"
-    implementation "com.google.android.exoplayer:exoplayer-hls:2.12.1"
-    implementation "com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1"
-    implementation "com.google.android.exoplayer:exoplayer-common:2.12.1"
-    implementation "com.google.android.exoplayer:exoplayer-extractor:2.12.1"
+    api 'com.google.android.exoplayer:exoplayer-core:2.12.1'
+    api 'com.google.android.exoplayer:exoplayer-dash:2.12.1'
+    api "com.google.android.exoplayer:extension-rtmp:2.12.1"
+    api "com.google.android.exoplayer:exoplayer-hls:2.12.1"
+    api "com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.1"
+    api "com.google.android.exoplayer:exoplayer-common:2.12.1"
+    api "com.google.android.exoplayer:exoplayer-extractor:2.12.1"
 
-    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv64:v8.1.5-jitpack'
-    implementation 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv7a:v8.1.5-jitpack'
+    api 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv64:v8.1.5-jitpack'
+    api 'com.github.CarGuo.GSYVideoPlayer:gsyVideoPlayer-armv7a:v8.1.5-jitpack'
 
     //exoplayer 播放器
-    implementation 'com.google.android.exoplayer:exoplayer-ui:2.12.0'
+    api 'com.google.android.exoplayer:exoplayer-ui:2.12.0'
 
 }
 
