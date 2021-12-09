@@ -1,0 +1,4 @@
+rootProject.name = "fat_arr"
+include ':app'
+include ':lib_base'
+include ':gsyVideoPlayer'
